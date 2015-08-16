@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+html,body {
+	height: 100%;
+}
+
+li {
+	margin: 5px 0;
+}
+
+.clear {
+	clear: left;
+}
+
+#page {
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+    width: 1040px;
+}
+
+* html #page {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#header {
+	border-bottom: 5px solid #045AA3;
+	height: 100px;
+	margin: auto 0;
+	width: 1000px;
+}
+
+#all {
+	padding-bottom: 30px;
+}
+
+#menu {
+	float: left;
+	margin: 0;
+	position: relative;
+	width: 196px;
+}
+
+#content {
+	float: left;
+	padding: 20px;
+	width: 760px;
+}
+
+#footer {
+	border-top: 1px solid #DDDDDD;
+	color: #777777;
+	font-size: 12px;
+	padding: 4px 0;
+	position: absolute;
+	bottom: 0;
+	width: 1000px;
+}
+
+.subtitle {
+	-moz-font-feature-settings: normal;
+	-moz-font-language-override: normal;
+	color: #777777;
+	font-family: Verdana;
+	font-size: 17px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: italic;
+	font-variant: normal;
+	line-height: normal;
+	margin: 0;
+	padding: 10px;
+}
+
+.title {
+	color: #000000;
+	font: bold 28px verdana;
+	margin: 0;
+	padding: 10px;
+}
